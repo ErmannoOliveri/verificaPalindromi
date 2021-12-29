@@ -1,0 +1,28 @@
+/*
+Autore: Ermanno Oliveri
+Data: 29/12/2021
+Descrizione: Programma per verificare se una frase o una parola è un palindromo
+*/
+
+/* import del font Poppins di google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:wght@100&display=swap');
+
+
+/* stile del body*/
+body{ 
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Poppins", Poppins, monospace;
+    text-align: center;
+}
+
+
+/* stile del div container */
+div#container{   
+   width: 350px;
+   height: 200px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin: -100px 0 0 -175px;
+}
