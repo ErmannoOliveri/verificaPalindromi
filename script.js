@@ -50,5 +50,5 @@ function invertiStringa(parola){
 
 // funzione che elimina la puntaggiatura e gli spazi
 function normalizzaStringa(parola){
-    return parola.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ").replace(/ /g, "");
+    return parola.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ").replace(/ /g, "");
 }
