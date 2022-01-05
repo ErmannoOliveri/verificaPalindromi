@@ -33,10 +33,10 @@ function verificaPalindromi(){
         let parolaInvertita = invertiStringa(parolaNormalizzata); //salva nella variabile il risultato della funzione invertiStringa
         
         if (parolaNormalizzata === parolaInvertita){ // condizione se la parola invertita e quella inserite sono uguali
-            document.getElementById("risultato").textContent = "La parola inserita \u00E8 un palindromo";
+            document.getElementById("risultato").textContent = "'" + parola + "' \u00E8 un palindromo";
         }
         else { // condizione se la parola invertita e quella originale non sono uguali
-            document.getElementById("risultato").textContent = "La parola inserita non \u00E8 un palindromo";
+            document.getElementById("risultato").textContent = "'" + parola + "' non \u00E8 un palindromo";
         }
         
     }
